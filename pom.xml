@@ -11,6 +11,7 @@
         <module>redis-spring-boot-example</module>
         <module>mybatis-plus-spring-boot-example</module>
         <module>spring-cloud-examples</module>
+        <module>xxl-job-spring-boot-examples</module>
     </modules>
 
     <groupId>com.example</groupId>
