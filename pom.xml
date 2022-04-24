@@ -13,6 +13,7 @@
         <module>spring-cloud-examples</module>
         <module>xxl-job-springboot-example</module>
         <module>elasticsearch-spring-boot-example</module>
+        <module>rpc-spring-boot-examples</module>
     </modules>
 
     <groupId>com.example</groupId>

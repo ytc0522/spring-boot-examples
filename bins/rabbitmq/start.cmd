@@ -1,0 +1,1 @@
+rabbitmqctl start_app
