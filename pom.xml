@@ -14,6 +14,7 @@
         <module>xxl-job-springboot-example</module>
         <module>elasticsearch-spring-boot-example</module>
         <module>rpc-spring-boot-examples</module>
+        <module>advanced-java-examples</module>
     </modules>
 
     <groupId>com.example</groupId>
