@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>xxl-job-spring-boot-examples</artifactId>
+    <artifactId>xxl-job-springboot-example</artifactId>
 
     <dependencies>
         <dependency>

@@ -27,6 +27,10 @@ public class RedisExampleController {
     private final String LOCK = "lock";
 
 
+    /**
+     * 分布式锁
+     * @return
+     */
     @SneakyThrows
     @GetMapping("/lockAdd")
     public String lockAdd() {
