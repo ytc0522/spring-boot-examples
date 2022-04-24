@@ -15,6 +15,7 @@
         <module>elasticsearch-spring-boot-example</module>
         <module>rpc-spring-boot-examples</module>
         <module>advanced-java-examples</module>
+        <module>sharding-jdbc-springboot-example</module>
     </modules>
 
     <groupId>com.example</groupId>

@@ -1,0 +1,52 @@
+
+server:
+    #端口号
+    port: 8080
+
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sharding-jdbc0?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: zhuima522..
+
+
+
+mybatis-plus:
+  global-config:
+    workerId: 1
+    datacenterId: 1
+    db-config:
+      capital-mode: true
+  mapper-locations: classpath:mappers/*.xml
+  configuration:
+    jdbc-type-for-null: varchar
+
+
+#spring:
+#    shardingsphere:
+#        datasource:
+#          sharding-jdbc0:
+#                driver-class-name: com.mysql.jdbc.Driver
+#                password: zhuima522..
+#                type: com.zaxxer.hikari.HikariDataSource
+#                url: jdbc:mysql://localhost:3306/sharding-jdbc0?serverTimezone=UTC&characterEncoding=utf-8&useSSL=false
+#                username: root
+#          sharding-jdbc1:
+#                driver-class-name: com.mysql.jdbc.Driver
+#                password: zhuima522..
+#                type: com.zaxxer.hikari.HikariDataSource
+#                url: jdbc:mysql://localhost:3306/sharding-jdbc1?serverTimezone=UTC&characterEncoding=utf-8&useSSL=false
+#                username: root
+#        sharding:
+#            default-database-strategy:
+#                inline:
+#                    algorithm-expression: $sharding-jdbc->{age % 2}
+#                    sharding-column: age
+#            tables:
+#                t_order:
+#                    actual-data-nodes: sharding-jdbc$->{0..1}.t_user$->{0..1}
+#                    table-strategy:
+#                        inline:
+#                            algorithm-expression: t_user$->{age % 2}
+#                            sharding-column: age
