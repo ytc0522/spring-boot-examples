@@ -1,0 +1,19 @@
+# 服务提供方
+spring:
+  application:
+    name: dubbo-service-provider
+
+dubbo:
+  application:
+    name: dubbo-provider
+  registry:
+    protocol: zookeeper
+    address: zookeeper://127.0.0.1:2181
+  protocol:
+    name: dubbo
+    port: 20880
+  scan:
+    base-packages: com.example.dubbo.provider.service
+
+server:
+  port: 7000

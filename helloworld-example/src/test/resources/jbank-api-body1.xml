@@ -1,0 +1,26 @@
+<ap>
+    <body>
+        <file_flag>0</file_flag>
+        <serial_record>户名|账号|币种|余额|可用余额|开户日期|账户类型|开户行|错误
+            信 息 | 成 功 标 志 |XXX 公 司
+            |310066661010121088868|CNY|85317882.08|85317882.08|199
+            51117|1|310999||0|
+        </serial_record>
+        <record_num>1</record_num>
+        <field_num>10</field_num>
+    </body>
+    <head>
+        <tr_code>310101</tr_code>
+        <corp_no>0000002234</corp_no>
+        <req_no>20070411113153312</req_no>
+        <serial_no></serial_no>
+        <next_no></next_no>
+        <tr_acdt>20070511</tr_acdt>
+        <tr_time>100945</tr_time>
+        <ans_code>0</ans_code>
+        <particular_code>0000</particular_code>
+        <ans_info>交易成功</ans_info>
+        <particular_info></particular_info>
+        <atom_tr_count>1</atom_tr_count>
+    </head>
+</ap>

@@ -1,0 +1,10 @@
+# 服务消费方
+dubbo:
+  application:
+    name: dubbo-consumer
+  registry:
+    protocol: zookeeper
+    address: zookeeper://127.0.0.1:2181
+
+server:
+  port: 8000
