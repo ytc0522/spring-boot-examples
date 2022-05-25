@@ -13,7 +13,11 @@ dubbo:
     name: dubbo
     port: 20880
   scan:
+#    设置实现类所在包
     base-packages: com.example.dubbo.provider.service
+# 设置超时时间
+  provider:
+    timeout: 5000
 
 server:
   port: 7000

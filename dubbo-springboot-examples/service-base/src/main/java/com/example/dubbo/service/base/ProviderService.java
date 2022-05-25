@@ -6,5 +6,12 @@ public interface ProviderService {
 
     void get();
 
+    /**
+     * 调用超时测试
+     */
+    String timeoutTest();
+
+    Integer exceptionTest();
+
 
 }
