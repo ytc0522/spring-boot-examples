@@ -1,4 +1,4 @@
-package com.example.dubbo.service.base;
+package com.example.dubbo.base.service;
 
 public interface ProviderService {
 

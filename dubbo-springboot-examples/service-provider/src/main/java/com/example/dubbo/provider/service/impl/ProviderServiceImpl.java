@@ -1,6 +1,6 @@
 package com.example.dubbo.provider.service.impl;
 
-import com.example.dubbo.service.base.ProviderService;
+import com.example.dubbo.base.service.ProviderService;
 import org.apache.dubbo.config.annotation.Service;
 
 import java.util.concurrent.TimeUnit;

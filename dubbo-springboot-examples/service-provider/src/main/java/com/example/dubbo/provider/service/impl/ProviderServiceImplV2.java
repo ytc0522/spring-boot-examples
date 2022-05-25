@@ -1,6 +1,6 @@
 package com.example.dubbo.provider.service.impl;
 
-import com.example.dubbo.service.base.ProviderService;
+import com.example.dubbo.base.service.ProviderService;
 import org.apache.dubbo.config.annotation.Service;
 
 @Service(version = "2.0")

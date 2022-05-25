@@ -1,6 +1,6 @@
 package com.example.dubbo.consumer.controller;
 
-import com.example.dubbo.service.base.ProviderService;
+import com.example.dubbo.base.service.ProviderService;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.web.bind.annotation.GetMapping;

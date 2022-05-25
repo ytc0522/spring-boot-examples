@@ -2,6 +2,11 @@
 spring:
   application:
     name: dubbo-service-provider
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/seata?useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT
+    username: root
+    password: zhuima522..
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
 dubbo:
   application:
@@ -19,5 +24,18 @@ dubbo:
   provider:
     timeout: 5000
 
+
+
+
+#seata 配置
+
+
 server:
   port: 7000
+seata:
+  enabled: true
+  application-id: stock-seata-example
+  tx-service-group: my_test_tx_group
+  service:
+    grouplist:
+      default: 127.0.0.1:8091
