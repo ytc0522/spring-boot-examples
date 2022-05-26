@@ -10,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @EnableDubbo
 public class DubboProviderApp {
 
+
     public static void main(String[] args) {
         SpringApplication.run(DubboProviderApp.class, args);
     }
