@@ -12,6 +12,7 @@
         <hutool-all.version>5.0.7</hutool-all.version>
         <redission.version>3.13.6</redission.version>
         <spring-boot-dependencies.version>2.2.5.RELEASE</spring-boot-dependencies.version>
+        <mybatis-plus.version>3.1.1</mybatis-plus.version>
     </properties>
 
 
@@ -25,8 +26,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
-
 
             <dependency>
                 <groupId>cn.hutool</groupId>
@@ -43,6 +42,12 @@
                 <groupId>org.redisson</groupId>
                 <artifactId>redisson-spring-boot-starter</artifactId>
                 <version>${redission.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis-plus.version}</version>
             </dependency>
 
         </dependencies>

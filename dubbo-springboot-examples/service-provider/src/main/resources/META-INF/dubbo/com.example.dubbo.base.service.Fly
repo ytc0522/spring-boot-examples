@@ -1,0 +1,2 @@
+bird=com.example.dubbo.provider.service.impl.spi.Bird
+plane=com.example.dubbo.provider.service.impl.spi.Plane
