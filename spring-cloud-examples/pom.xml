@@ -12,6 +12,7 @@
         <module>nacos-spring-cloud-example</module>
         <module>sentinel-springcloud-example</module>
         <module>service-provider-A</module>
+        <module>service-provider-B</module>
         <module>service-consumer-A</module>
     </modules>
     <modelVersion>4.0.0</modelVersion>
